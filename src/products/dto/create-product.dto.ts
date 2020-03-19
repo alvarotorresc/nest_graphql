@@ -5,11 +5,11 @@ export class ProductType {
     @Field(() => ID)
     readonly id?: string;
     @Field()
-    readonly name?: string;
+    readonly name: string;
     @Field(() => Int)
-    readonly price?: number;
+    readonly price: number;
     @Field()
-    readonly description?: string;
+    readonly description: string;
     @Field(() => Int)
-    readonly quantity?: number;
+    readonly quantity: number;
 }
